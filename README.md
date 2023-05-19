@@ -12,8 +12,10 @@ Attention à deux éléments : la localisation des volumes et le port ouvert sur
 Exécution en ligne de commande : docker-compose -f docker-compose_2c.yml up -d  <br />
 <br />
 Pour accèder au service sasiir sous un navigateur l'url http://localhost:9995  <br />
+Pour arrêter les services à partir du répertoire : docker-compose down <br />
 <hr />
 Exécution de trois conteneurs : wordpress, mysql et phpmyadmin  <br />
+
 <br />
 -- Exemple : docker_compose_3c.yml --- <br />
 Attention à deux éléments : la localisation des volumes et le port ouvert sur wordpress 
@@ -25,6 +27,7 @@ Exécution en ligne de commande : docker-compose -f docker-compose_3c.yml up -d 
 Pour accèder au service wordpress saisir sous un navigateur l'url http://localhost:9996  <br />
 Pour accèder au service phpmyadmin saisir sous un navigateur l'url http://localhost:8084  <br />
 Fournir db comme nom du serveur <br />
+Pour arrêter les services à partir du répertoire : docker-compose down <br />
 <hr />
 
 
