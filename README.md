@@ -1,10 +1,10 @@
 # PSB_M2_2023
 Supports de cours pour PWA
 
-Deux fichiers pour docker-compose pour exécuter deux ou trois conteneurs 
-Exécution de deux conteneurs wordpress et mysql 
-(attention à remplacer les répertoires par les vôtres /home/ystroppa/PSB/2023/M2/psbwordpress)
-
+Deux fichiers pour docker-compose pour exécuter deux ou trois conteneurs  <br />
+Exécution de deux conteneurs wordpress et mysql   <br />
+(attention à remplacer les répertoires par les vôtres /home/ystroppa/PSB/2023/M2/psbwordpress)  <br />
+-- Exemple : docker_compose_2c.yml --- <br />
 version: "3.3" <br />
 services: <br />
   db:  <br />
@@ -33,12 +33,13 @@ services: <br />
       WORDPRESS_DB_PASSWORD: wordpress   <br />
       WORDPRESS_DB_NAME: wordpress   <br />
 <br />
+<br />
+Exécution en ligne de commande : docker-compose -f docker-compose_2c.yml up -d  <br />
+<hr />
 
-Exécution en ligne de commande : docker-compose -f docker-compose_2c.yml up -d 
 
-
-
-Exécution de trois conteneurs : wordpress, mysql et phpmyadmin 
+-- Exemple : docker_compose_3c.yml --- <br />
+Exécution de trois conteneurs : wordpress, mysql et phpmyadmin  <br />
 
 
 
