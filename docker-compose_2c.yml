@@ -19,7 +19,7 @@ services:
     volumes:
       - /home/ystroppa/PSB/2023/M2/psbwordpress/wordpress_data:/var/www/html
     ports:
-      - "9915:80"
+      - "9995:80"
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
