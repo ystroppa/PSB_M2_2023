@@ -22,7 +22,9 @@ Attention à deux éléments : la localisation des volumes et le port ouvert sur
 <br />
 Exécution en ligne de commande : docker-compose -f docker-compose_3c.yml up -d  <br />
 <br />
-Pour accèder au service sasiir sous un navigateur l'url http://localhost:9996  <br />
+Pour accèder au service wordpress saisir sous un navigateur l'url http://localhost:9996  <br />
+Pour accèder au service phpmyadmin saisir sous un navigateur l'url http://localhost:8084  <br />
+Fournir db comme nom du serveur <br />
 <hr />
 
 
